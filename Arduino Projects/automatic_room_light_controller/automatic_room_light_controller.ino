@@ -1,14 +1,10 @@
 
 #include <SoftwareSerial.h>
 #include <LiquidCrystal_I2C.h>
-
-
-
 LiquidCrystal_I2C lcd(0x27,16,2);  
 
 //GSM Module TX is connected to Arduino D8
 #define PIR_SENSOR_1 7
-
 
 //GSM Module RX is connected to Arduino D9
 #define SIM800_RX_PIN 5

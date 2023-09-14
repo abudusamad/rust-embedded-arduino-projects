@@ -1,29 +1,13 @@
-//Tech Trends Shameer
-//Control LED Using Blynk 2.0/Blynk IOT
-
-#define BLYNK_TEMPLATE_ID "TemplateID"
-#define BLYNK_DEVICE_NAME "Device Name"
-#define BLYNK_AUTH_TOKEN "Auth Token"
-
-
-#define BLYNK_PRINT Serial
-#include <ESP8266WiFi.h>  
-#include <BlynkSimpleEsp8266.h>
- 
-
-char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Wifi Username";  // Enter your Wifi Username
-char pass[] = "Wifi Password";  // Enter your Wifi password
-
-int ledpin = D4;
-void setup()
-{     
-  Serial.begin(115200);
-  Blynk.begin(auth, ssid, pass);    
-  pinMode(ledpin,OUTPUT);
+#include <Arduino.h>
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
 }
 
-void loop()
-{
-  Blynk.run(); 
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(1000);                      // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  delay(1000);                      // wait for a second
 }
