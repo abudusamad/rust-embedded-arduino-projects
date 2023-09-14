@@ -1,11 +1,4 @@
-/*
-
-  GettingStarted
-  Testing with the wifi scan example
-
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/ESP32/GettingStarted
-
- */
+#include <Arduino.h>
 #include "WiFi.h"
 
 const int DELAY_BETWEEN_SCANS = 5000;
