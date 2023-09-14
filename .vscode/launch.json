@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Mascot/Documents/PlatformIO/Projects",
-      "program": "c:/Users/Mascot/Documents/PlatformIO/Projects/build/Debug/outDebug",
+      "cwd": "c:/Users/Mascot/Documents/PlatformIO/Projects/rust-embedded-arduino-projects",
+      "program": "c:/Users/Mascot/Documents/PlatformIO/Projects/rust-embedded-arduino-projects/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
