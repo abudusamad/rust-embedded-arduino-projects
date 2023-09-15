@@ -8,8 +8,8 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "C:/Users/Mascot/Documents/PlatformIO/Projects/Esp32/include",
-                "C:/Users/Mascot/Documents/PlatformIO/Projects/Esp32/src",
+                "C:/Users/Mascot/Documents/PlatformIO/Projects/rust-embedded-arduino-projects/Esp32/include",
+                "C:/Users/Mascot/Documents/PlatformIO/Projects/rust-embedded-arduino-projects/Esp32/src",
                 "C:/Users/Mascot/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                 "C:/Users/Mascot/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                 "C:/Users/Mascot/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -238,8 +238,8 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "C:/Users/Mascot/Documents/PlatformIO/Projects/Esp32/include",
-                    "C:/Users/Mascot/Documents/PlatformIO/Projects/Esp32/src",
+                    "C:/Users/Mascot/Documents/PlatformIO/Projects/rust-embedded-arduino-projects/Esp32/include",
+                    "C:/Users/Mascot/Documents/PlatformIO/Projects/rust-embedded-arduino-projects/Esp32/src",
                     "C:/Users/Mascot/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                     "C:/Users/Mascot/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                     "C:/Users/Mascot/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
