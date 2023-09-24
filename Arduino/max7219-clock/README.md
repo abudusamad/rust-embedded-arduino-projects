@@ -242,3 +242,9 @@ The 32K output pin of a DS3231 can supply a highly accurate timer for interrupt-
 ### Circuit Diagram
 
 ![circuit](./assets/max7219.png?raw=true)
+
+
+### Demo of the project
+
+![demo](./assets/20230511_164307.jpg?raw=true)
+![demo](./assets/20230511_164309.jpg?raw=true)
