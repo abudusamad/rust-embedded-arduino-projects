@@ -6,6 +6,8 @@ sidebar_label: wokwi-arduino-uno
 Arduino Uno is the most popular board in the Arduino family. It is powered by the ATmega328p chip, which has 32K bytes of Flash program memory, 2k bytes of SRAM and 1K bytes of EEPROM.
 
 <wokwi-arduino-uno />
+![Arduino Uno](assets/R.jpg)
+
 
 ## Pin names
 
