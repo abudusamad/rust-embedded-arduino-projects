@@ -120,6 +120,10 @@ Digital Humidity and Temperature sensor.
 
 <wokwi-dht22 />
 
+
+
+![dht22](./assets/20230511_164013.jpg?raw=true)
+
 ## Pin names
 
 | Name | Description                     |
@@ -205,3 +209,40 @@ Choosing the wrong layout will cause your text / drawing to be rotated and / or 
 | ------------------------------------------------ | ---------------------- |
 | <DotMatrix style={{'--pixel-color': 'green'}} /> | `{ "color": "green" }` |
 | <DotMatrixChain4/>                               | `{ "chain": "4" }`     |
+
+
+
+#DS3231
+## Utility Functions
+The versatile DS3231 is more than just an alarm clock. It supplies a timer and a temperature sensor, also. This Library includes utility functions giving access to these other capabilities.
+
+### Contents
+
+* [enable32kHz()](#32k)
+* [enableOscillator()](#enable-oscillator)
+* [oscillatorCheck()](#oscillator-check)
+* [getTemperature()](#temperature)
+* [Pin Change Interrupt](#pin-change-interrupt)
+
+### <a id="32k">enable32kHz()</a>
+
+The 32K output pin of a DS3231 can supply a highly accurate timer for interrupt-driven Arduino programming. Connect the pin to an interrupt-enabled Arduino input pin, enable the 32K output, and explore the benefits of programming with timer-driven interrupts, without the complexities of configuring timers built into the Arduino's microcontroller.
+
+```
+
+/*
+ * Turn on or off the 32.768 kHz output of a DS3231 RTC
+ *
+ * returns: nothing (void)
+ * one parameter: TF, boolean
+ * effect:
+ *    TF == true, turns the output on
+ *    TF = false, turns the output off
+ */
+
+void enable32kHz(bool TF);
+
+
+
+
+![Circuit Diagram](./assets/max7219.png?raw=true)
