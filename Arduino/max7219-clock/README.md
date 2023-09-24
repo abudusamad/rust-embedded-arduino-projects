@@ -167,7 +167,11 @@ import DotMatrixChain4 from './wokwi-max7219-matrix-chain-4.svg';
 
 8x8 LED Dot Matrix with MAX7219 Controller
 
-![MAX7219 LED Dot Matrix](wokwi-max7219-matrix.svg)
+
+
+![MAX7219 LED Dot Matrix](./assets/20230511_163957.jpg?raw=true)
+
+
 
 ## Pin names
 
@@ -214,7 +218,11 @@ Choosing the wrong layout will cause your text / drawing to be rotated and / or 
 
 #DS3231
 ## Utility Functions
-The versatile DS3231 is more than just an alarm clock. It supplies a timer and a temperature sensor, also. This Library includes utility functions giving access to these other capabilities.
+The versatile DS3231 is more than just an alarm clock. It supplies a timer and a temperature sensor, also. This Library includes utility functions giving access 
+to these other capabilities.
+
+
+![real time clock ](./assets/20230511_164021.jpg?raw=true)
 
 ### Contents
 
@@ -228,25 +236,9 @@ The versatile DS3231 is more than just an alarm clock. It supplies a timer and a
 
 The 32K output pin of a DS3231 can supply a highly accurate timer for interrupt-driven Arduino programming. Connect the pin to an interrupt-enabled Arduino input pin, enable the 32K output, and explore the benefits of programming with timer-driven interrupts, without the complexities of configuring timers built into the Arduino's microcontroller.
 
-```
-
-/*
- * Turn on or off the 32.768 kHz output of a DS3231 RTC
- *
- * returns: nothing (void)
- * one parameter: TF, boolean
- * effect:
- *    TF == true, turns the output on
- *    TF = false, turns the output off
- */
-
-void enable32kHz(bool TF);
 
 
 
+### Circuit Diagram
 
-
-
-
-
-![Circuit Diagram](./assets/max7219.png?raw=true)
+![circuit](./assets/max7219.png?raw=true)
