@@ -6,7 +6,7 @@ sidebar_label: wokwi-arduino-uno
 Arduino Uno is the most popular board in the Arduino family. It is powered by the ATmega328p chip, which has 32K bytes of Flash program memory, 2k bytes of SRAM and 1K bytes of EEPROM.
 
 <wokwi-arduino-uno />
-![Arduino Uno](assets/R.jpg)
+![Arduino Uno](assets/R.jpg?raw=true)
 
 
 ## Pin names
@@ -203,12 +203,3 @@ Choosing the wrong layout will cause your text / drawing to be rotated and / or 
 | ------------------------------------------------ | ---------------------- |
 | <DotMatrix style={{'--pixel-color': 'green'}} /> | `{ "color": "green" }` |
 | <DotMatrixChain4/>                               | `{ "chain": "4" }`     |
-
-## Simulator examples
-
-- [Dot Matrix Clock](https://wokwi.com/projects/289186888566178317)
-- [Etch A Sketch game](https://wokwi.com/projects/296234816685212169)
-- [Electronic Dice (on ATtiny85)](https://wokwi.com/projects/291779699024069128)
-- [Arduino QR Code Generator](https://wokwi.com/projects/318641692720759379)
-- [32x32 LED Matrix Tunnel](https://wokwi.com/projects/318864638990090834)
-- [MD_Parola Scrolling Message](https://wokwi.com/projects/344893846000239186)
