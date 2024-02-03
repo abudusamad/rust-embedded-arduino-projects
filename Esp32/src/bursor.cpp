@@ -7,7 +7,7 @@ void setup() {
   // put your setup code here, to run once:
   pinMode(Buzzer, OUTPUT);
   pinMode(Button, INPUT);
-  Serial.begin(9600);
+  Serial.begin(115200);
 }
 
 void loop() {
