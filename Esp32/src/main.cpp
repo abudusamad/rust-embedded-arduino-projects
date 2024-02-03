@@ -1,18 +1,26 @@
-#include <Arduino.h>
+#include "Arduino.h"
 
-// put function declarations here:
-int myFunction(int, int);
+# define LED_BUILTIN 2
 
 void setup() {
   // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  pinMode(LED_BUILTIN, OUTPUT);
 }
-
 void loop() {
-  // put your main code here, to run repeatedly:
-}
+  // Fast blinking
+  for(int i = 0; i < 10; i++) { // blink for 10 times
+    digitalWrite(LED_BUILTIN, HIGH); // turn the LED on
+    delay(100); // wait for 100ms
+    digitalWrite(LED_BUILTIN, LOW); // turn the LED off
+    delay(100); // wait for 100ms
+  }
+  delay(1000); // wait for a second before slow blinking
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  // Slow blinking
+  for(int i = 0; i < 10; i++) { // blink for 10 times
+    digitalWrite(LED_BUILTIN, HIGH); // turn the LED on
+    delay(1000); // wait for a second
+    digitalWrite(LED_BUILTIN, LOW); // turn the LED off
+    delay(1000); // wait for a second
+  }
 }
